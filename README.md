@@ -1,1 +1,1 @@
-This repository holds a demonstration of the Arnoldi method.
+This repository holds a demonstration of the Arnoldi method, which is arnoldi_demo.py.
