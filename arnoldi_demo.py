@@ -85,7 +85,7 @@ if __name__ == "__main__":
         ax.cla()
         ax.scatter(eigs.real, eigs.imag, s=2, c='black')
         ax.set_aspect('equal')
-        ax.scatter(ritz_vals.real, ritz_vals.imag, s=2, c='red')
+        ax.scatter(ritz_vals.real, ritz_vals.imag, s=10, c='red')
         circ = plt.Circle((0, 0), radius=1, edgecolor='k', facecolor='None')
         ax.add_patch(circ)
         ax.grid()
