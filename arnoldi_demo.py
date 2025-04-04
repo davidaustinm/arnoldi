@@ -93,6 +93,7 @@ if __name__ == "__main__":
         ax.set_ylabel('Imag')
         ax.set_title(f'Ritz value convergence for nonhermitian A, Arnoldi iteration: {nplot}')
         # plt.show()
+        # comment2
         plt.savefig(f'./anim/{nplot:04}.png')
 
     # %%
